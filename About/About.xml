@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>cedaro.PickUpAtHome</packageId>
+
+	<name>Pick Up at Home</name>
+	<author>B0unt9</author>
+	<description>
+Allow pick up items at home.
+
+Note: This function is included in Pick Up And Haul, you don't need both of them.
+	</description>
+
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+
+	<incompatibleWith>
+		<li>mehni.pickupandhaul</li>
+	</incompatibleWith>
+
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+	</loadAfter>
+</ModMetaData>
