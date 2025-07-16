@@ -1,16 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<packageId>cedaro.PickUpAtHome</packageId>
-
-	<name>Pick Up at Home</name>
-	<author>B0unt9</author>
+	<name>Pick Up at Home (Fork)</name>
+	<author>cedaro, b0unt9</author>
+	<packageId>rw.mod.PickUpAtHome</packageId>
 	<description>
-Allow pick up items at home.
+[h1]Pick Up At Home (1.6 Update)[/h1]
+This is a [b]reimplementation[/b] of the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2982694750]original "Pick Up At Home" mod[/url] for RimWorld, updated to support [b]version 1.6[/b].
 
-Note: This function is included in Pick Up And Haul, you don't need both of them.
+In RimWorld 1.5, the original mod added a Float Menu option via [b]Harmony patching[/b], allowing pawns to manually pick up items within player-controlled home maps.
+However, as of RimWorld 1.6, this functionality can now be added using the [b]native `[u]FloatMenuOptionProvider[/u]` system[/b], which this mod takes full advantage of.
+
+⚠️ Version 1.5 still requires Harmony!
+[hr][/hr]
+
+[h2]✅ Features[/h2]
+[list]
+[*] Adds a [b]Float Menu option[/b] when right-clicking on haulable items within player home maps.
+[*] Allows selected pawns to [b]manually pick up items[/b] into their inventory.
+[*] Takes into account: 
+[list]
+[*] Pawn encumbrance limits
+[*] Path reachability
+[*] Stack count and partial pickups (slider dialog included)
+[/list] 
+[/list]
+[hr][/hr]
+
+[h2]📦 Differences from the Original Mod[/h2]
+[list]
+[*] [b]No Harmony patching[/b] is used — all functionality is built using RimWorld 1.6's [b]native modding API[/b].
+[*] Refactored and cleaned up logic for better compatibility with the new FloatMenu system.
+[*] Fully compatible with other FloatMenuOptionProviders in 1.6.
+[/list]
+[hr][/hr]
+
+[h2]📌 Notes[/h2]
+[list]
+[*] This is [b]not an official update[/b] by the original author.
+[*] This version was rebuilt by reviewing and understanding the original mod’s functionality, then adapting it using new 1.6 tools.
+[*] The mod should be safe to use in existing saves, but always back up your game just in case.
+[/list]
+[hr][/hr]
+
+[h2]📜 Credits[/h2]
+[list]
+[*] Original mod by [b][url=https://steamcommunity.com/id/CedarO/]Cedar[/url][/b] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=2982694750]Workshop page[/url])
+[*] 1.6 update and native FloatMenu integration by [b][url=https://github.com/b0unt9]Bounty[/url][/b]
+[/list]
+[hr][/hr]
+
+[h2]🔧 Compatibility[/h2]
+[list]
+[*] RimWorld 1.6+
+[*] Likely incompatible with the original mod (disable one or the other)
+[*] Compatible with most other mods unless they interfere with inventory or FloatMenu logic
+[/list]
+[hr][/hr]
+
+[h2]💬 Feedback[/h2]
+Issues or suggestions?
+Feel free to leave a comment or contact me via GitHub: [url=https://github.com/rw-mod/Pick-Up-at-Home]github.com/rw-mod/Pick-Up-at-Home[/url]
+[hr][/hr]
 	</description>
 
 	<supportedVersions>
+		<li>1.5</li>
 		<li>1.6</li>
 	</supportedVersions>
 

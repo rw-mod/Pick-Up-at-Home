@@ -5,6 +5,8 @@ This is a **reimplementation** of the [original "Pick Up At Home" mod](https://s
 In RimWorld 1.5, the original mod added a Float Menu option via **Harmony patching**, allowing pawns to manually pick up items within player-controlled home maps.  
 However, as of RimWorld 1.6, this functionality can now be added using the **native `FloatMenuOptionProvider` system**, which this mod takes full advantage of.
 
+⚠️ Version 1.5 still requires Harmony!
+
 ---
 
 ## ✅ Features
@@ -52,6 +54,6 @@ However, as of RimWorld 1.6, this functionality can now be added using the **nat
 ## 💬 Feedback
 
 Issues or suggestions?  
-Feel free to leave a comment or contact me via GitHub: [github.com/b0unt9](https://github.com/b0unt9)
+Feel free to leave a comment or contact me via GitHub: [github.com/rw-mod/Pick-Up-at-Home](https://github.com/rw-mod/Pick-Up-at-Home)
 
 ---
